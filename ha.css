@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Karla";
+    src: url("/Шрифт/Karla.ttf") format("opentype")
+}
+
+.body{
+    height: 1000vh;
+    background-color: gray;
+    
+}
+
+.backend{
+    height: 1000vh;
+    width: 1440px;
+    background-color: rgb(250, 250, 250);
+    
+}
+.header {
+    display: flex;
+    height: 80px;
+    margin: 0px 150px;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logotype{
+    margin-left: 140px;
+}
+.nav:hover {
+    transform: scale(1.2);
+  }
+.nav-item{
+    color: #1D1F2E;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 12px;
+}
+.section1{
+    height: 530px;
+    width: 1380px;
+    background-color: #050827;
+    margin-left: 30px;
+    display: flex;
+    
+}
+.page1_img{
+    height: 530px;
+    width: 940px;
+    margin-left: 220px;
+    
+}
+.page1_text{
+    
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    padding-left: 370px;
+    font-family: Karla;
+    color: #1D1F2E
+    
+}
+.but1{
+    background-color: #1D1F2E;
+    transition: background-color 1s ease-in-out;
+        
+}
+.but1:hover {
+    background-color: #FFFFFF;
+}
+.section2{
+    width: 1440px;
+    background-color: rgb(250, 250, 250);
+    height: 1300px;
+}
+hr{
+    margin-top: 10px;
+    border: 4px;
+    border-top: 2px solid #A25F4B33;
+    
+}
+.page2_text{
+    text-align: center;
+    font-family: Karla;
+    
+}
+.page2_two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    height: 540px;
+    width: 455px;
+    color: #1D1F2EB2;
+}
+.image-container img{
+    height: 540px;
+    width: 460px;
+}
+.image-container p {
+    font-size: 20px;
+}
+.pen p {
+    display: inline-block;
+    font-family: Karla;
+}
+.section3{
+    width: 1440px;
+    background-color: rgb(250, 250, 250);
+}
+.image-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    height: 540px;
+    width: 290px;
+    color: #1D1F2EB2;
+}
+.image-container2 img{
+    height: 380px;
+    width: 300px;
+}
+.image-container2 p {
+    font-size: 20px;
+}
+.section4{
+    padding-top: 100px;
+    background-color: rgb(250, 250, 250);
+}
+.page4_text{
+    text-align: center;
+    padding-bottom: 150px;
+    font-family: Karla;
+    color: #1D1F2E
+}
+.page4-image1{
+    display: flex;
+    margin-left: 250px;
+}
+.page4-image2 img{
+    width:160px; 
+    height:130px ; 
+}
+.page4-image3 img{
+    width:160px; 
+    height:130px ;
+    margin-top: 15px;
+}
+.but2{
+
+transition: background-color 1s ease-in-out;
+    
+}
+.but2:hover {
+    background-color: #1D1F2E;
+  }
+.section5{
+    padding-top: 130px;
+    background-color: rgb(250, 250, 250);
+    height: 340;
+}
+.section6{
+    background-color: rgb(250, 250, 250);
+}
+.page6-image{
+    display: flex;
+    
+    justify-content: center;
+}
+.page6-image img{
+    height: 300px;
+    width: 300px;
+}
+.section7{
+    background-color: #1D1F2E;
+    width: 1380px;
+    height: 327px;
+    margin-left: 30px;
+}
+.page7_text{
+    text-align: center;
+    font-family: Karla;
+    
+}
+.but3{
+    background-color: #1D1F2E;
+    transition: background-color 1s ease-in-out;
+        
+}
+.but3:hover {
+    background-color: #FFFFFF;
+}
+.page7_ramka{
+    display: flex;
+    justify-content: center;
+    
+    position: absolute;
+    padding-top: 30px;
+}
+.page7_ramka img{
+    position: absolute;
+    margin-left: 1350px;
+    
+}
+.page7_ramka p {
+    position: absolute;
+    padding-left: 1700px;
+    padding-top: 20px;
+  }
+
+.footer{
+    padding-top: 60px;
+    
+}
+
+.columns-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+  
+  .column {
+    flex-basis: 25%;
+    padding: 10px;
+    font-family: Karla;
+    color: #1D1F2E
+}
